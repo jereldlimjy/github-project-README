@@ -6,13 +6,14 @@ const Navbar = ({ title }) => {
         <div>
             <nav>
                 <h1>{title}</h1>
+                <hr/>
             </nav>
         </div>
     )
 }
 
 Navbar.defaultProps = {
-    title: 'Github Projects README'
+    title: 'GitHub Projects README'
 }
 
 Navbar.propTypes = {
